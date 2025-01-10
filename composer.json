@@ -1,10 +1,14 @@
 {
-    "name": "jildertmiedema/laravel-plupload",
+    "name": "juunitaki/laravel-plupload",
     "description": "Laravel/Plupload - Handle large file uploads",
     "authors": [
         {
             "name": "Jildert Miedema",
             "email": "jildertmiedema@gmail.com"
+        }, 
+        {
+            "name": "Theodore Mosalov",
+            "email": "fedya.mosalov@gmail.com"
         }
     ],
     "keywords": [
@@ -23,7 +27,7 @@
     },
     "autoload": {
         "psr-0": {
-            "JildertMiedema\\LaravelPlupload": "src/"
+            "Juunitaki\\LaravelPlupload": "src/"
         }
     },
     "minimum-stability": "stable"
