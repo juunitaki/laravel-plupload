@@ -50,6 +50,7 @@ class Receiver
             fwrite($out, $buff);
         }
 
+        @fsync($out); // sync changes to network drive
         @fclose($out);
         @fclose($in);
     }
