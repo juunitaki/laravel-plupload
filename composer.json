@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Juunitaki\\LaravelPlupload": "src/JildertMiedema/"
+            "JildertMiedema\\LaravelPlupload": "src/"
         }
     },
     "minimum-stability": "stable"
